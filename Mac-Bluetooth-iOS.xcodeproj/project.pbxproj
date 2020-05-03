@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B61C775245E942C00D0C98A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C774245E942C00D0C98A /* AppDelegate.swift */; };
+		2B61C777245E942C00D0C98A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C776245E942C00D0C98A /* SceneDelegate.swift */; };
+		2B61C779245E942C00D0C98A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C778245E942C00D0C98A /* ViewController.swift */; };
+		2B61C77C245E942C00D0C98A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B61C77A245E942C00D0C98A /* Main.storyboard */; };
+		2B61C77F245E942C00D0C98A /* Mac_Bluetooth_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C77D245E942C00D0C98A /* Mac_Bluetooth_iOS.xcdatamodeld */; };
+		2B61C781245E942D00D0C98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B61C780245E942D00D0C98A /* Assets.xcassets */; };
+		2B61C784245E942D00D0C98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B61C782245E942D00D0C98A /* LaunchScreen.storyboard */; };
+		2B61C78F245E942E00D0C98A /* Mac_Bluetooth_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C78E245E942E00D0C98A /* Mac_Bluetooth_iOSTests.swift */; };
+		2B61C79A245E942E00D0C98A /* Mac_Bluetooth_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C799245E942E00D0C98A /* Mac_Bluetooth_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B61C78B245E942E00D0C98A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B61C769245E942C00D0C98A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B61C770245E942C00D0C98A;
+			remoteInfo = "Mac-Bluetooth-iOS";
+		};
+		2B61C796245E942E00D0C98A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B61C769245E942C00D0C98A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B61C770245E942C00D0C98A;
+			remoteInfo = "Mac-Bluetooth-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B61C771245E942C00D0C98A /* Mac-Bluetooth-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac-Bluetooth-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61C774245E942C00D0C98A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B61C776245E942C00D0C98A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B61C778245E942C00D0C98A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B61C77B245E942C00D0C98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B61C77E245E942C00D0C98A /* Mac_Bluetooth_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mac_Bluetooth_iOS.xcdatamodel; sourceTree = "<group>"; };
+		2B61C780245E942D00D0C98A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B61C783245E942D00D0C98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B61C785245E942D00D0C98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B61C78A245E942E00D0C98A /* Mac-Bluetooth-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac-Bluetooth-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61C78E245E942E00D0C98A /* Mac_Bluetooth_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac_Bluetooth_iOSTests.swift; sourceTree = "<group>"; };
+		2B61C790245E942E00D0C98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B61C795245E942E00D0C98A /* Mac-Bluetooth-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac-Bluetooth-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61C799245E942E00D0C98A /* Mac_Bluetooth_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac_Bluetooth_iOSUITests.swift; sourceTree = "<group>"; };
+		2B61C79B245E942E00D0C98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B61C76E245E942C00D0C98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61C787245E942E00D0C98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61C792245E942E00D0C98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B61C768245E942C00D0C98A = {
+			isa = PBXGroup;
+			children = (
+				2B61C773245E942C00D0C98A /* Mac-Bluetooth-iOS */,
+				2B61C78D245E942E00D0C98A /* Mac-Bluetooth-iOSTests */,
+				2B61C798245E942E00D0C98A /* Mac-Bluetooth-iOSUITests */,
+				2B61C772245E942C00D0C98A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B61C772245E942C00D0C98A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B61C771245E942C00D0C98A /* Mac-Bluetooth-iOS.app */,
+				2B61C78A245E942E00D0C98A /* Mac-Bluetooth-iOSTests.xctest */,
+				2B61C795245E942E00D0C98A /* Mac-Bluetooth-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B61C773245E942C00D0C98A /* Mac-Bluetooth-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B61C774245E942C00D0C98A /* AppDelegate.swift */,
+				2B61C776245E942C00D0C98A /* SceneDelegate.swift */,
+				2B61C778245E942C00D0C98A /* ViewController.swift */,
+				2B61C77A245E942C00D0C98A /* Main.storyboard */,
+				2B61C780245E942D00D0C98A /* Assets.xcassets */,
+				2B61C782245E942D00D0C98A /* LaunchScreen.storyboard */,
+				2B61C785245E942D00D0C98A /* Info.plist */,
+				2B61C77D245E942C00D0C98A /* Mac_Bluetooth_iOS.xcdatamodeld */,
+			);
+			path = "Mac-Bluetooth-iOS";
+			sourceTree = "<group>";
+		};
+		2B61C78D245E942E00D0C98A /* Mac-Bluetooth-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B61C78E245E942E00D0C98A /* Mac_Bluetooth_iOSTests.swift */,
+				2B61C790245E942E00D0C98A /* Info.plist */,
+			);
+			path = "Mac-Bluetooth-iOSTests";
+			sourceTree = "<group>";
+		};
+		2B61C798245E942E00D0C98A /* Mac-Bluetooth-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B61C799245E942E00D0C98A /* Mac_Bluetooth_iOSUITests.swift */,
+				2B61C79B245E942E00D0C98A /* Info.plist */,
+			);
+			path = "Mac-Bluetooth-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B61C770245E942C00D0C98A /* Mac-Bluetooth-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B61C79E245E942E00D0C98A /* Build configuration list for PBXNativeTarget "Mac-Bluetooth-iOS" */;
+			buildPhases = (
+				2B61C76D245E942C00D0C98A /* Sources */,
+				2B61C76E245E942C00D0C98A /* Frameworks */,
+				2B61C76F245E942C00D0C98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac-Bluetooth-iOS";
+			productName = "Mac-Bluetooth-iOS";
+			productReference = 2B61C771245E942C00D0C98A /* Mac-Bluetooth-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B61C789245E942E00D0C98A /* Mac-Bluetooth-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B61C7A1245E942E00D0C98A /* Build configuration list for PBXNativeTarget "Mac-Bluetooth-iOSTests" */;
+			buildPhases = (
+				2B61C786245E942E00D0C98A /* Sources */,
+				2B61C787245E942E00D0C98A /* Frameworks */,
+				2B61C788245E942E00D0C98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B61C78C245E942E00D0C98A /* PBXTargetDependency */,
+			);
+			name = "Mac-Bluetooth-iOSTests";
+			productName = "Mac-Bluetooth-iOSTests";
+			productReference = 2B61C78A245E942E00D0C98A /* Mac-Bluetooth-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B61C794245E942E00D0C98A /* Mac-Bluetooth-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B61C7A4245E942E00D0C98A /* Build configuration list for PBXNativeTarget "Mac-Bluetooth-iOSUITests" */;
+			buildPhases = (
+				2B61C791245E942E00D0C98A /* Sources */,
+				2B61C792245E942E00D0C98A /* Frameworks */,
+				2B61C793245E942E00D0C98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B61C797245E942E00D0C98A /* PBXTargetDependency */,
+			);
+			name = "Mac-Bluetooth-iOSUITests";
+			productName = "Mac-Bluetooth-iOSUITests";
+			productReference = 2B61C795245E942E00D0C98A /* Mac-Bluetooth-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B61C769245E942C00D0C98A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ramneet;
+				TargetAttributes = {
+					2B61C770245E942C00D0C98A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2B61C789245E942E00D0C98A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2B61C770245E942C00D0C98A;
+					};
+					2B61C794245E942E00D0C98A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2B61C770245E942C00D0C98A;
+					};
+				};
+			};
+			buildConfigurationList = 2B61C76C245E942C00D0C98A /* Build configuration list for PBXProject "Mac-Bluetooth-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B61C768245E942C00D0C98A;
+			productRefGroup = 2B61C772245E942C00D0C98A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B61C770245E942C00D0C98A /* Mac-Bluetooth-iOS */,
+				2B61C789245E942E00D0C98A /* Mac-Bluetooth-iOSTests */,
+				2B61C794245E942E00D0C98A /* Mac-Bluetooth-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B61C76F245E942C00D0C98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61C784245E942D00D0C98A /* LaunchScreen.storyboard in Resources */,
+				2B61C781245E942D00D0C98A /* Assets.xcassets in Resources */,
+				2B61C77C245E942C00D0C98A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61C788245E942E00D0C98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61C793245E942E00D0C98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B61C76D245E942C00D0C98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61C779245E942C00D0C98A /* ViewController.swift in Sources */,
+				2B61C775245E942C00D0C98A /* AppDelegate.swift in Sources */,
+				2B61C77F245E942C00D0C98A /* Mac_Bluetooth_iOS.xcdatamodeld in Sources */,
+				2B61C777245E942C00D0C98A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61C786245E942E00D0C98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61C78F245E942E00D0C98A /* Mac_Bluetooth_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61C791245E942E00D0C98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61C79A245E942E00D0C98A /* Mac_Bluetooth_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B61C78C245E942E00D0C98A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B61C770245E942C00D0C98A /* Mac-Bluetooth-iOS */;
+			targetProxy = 2B61C78B245E942E00D0C98A /* PBXContainerItemProxy */;
+		};
+		2B61C797245E942E00D0C98A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B61C770245E942C00D0C98A /* Mac-Bluetooth-iOS */;
+			targetProxy = 2B61C796245E942E00D0C98A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B61C77A245E942C00D0C98A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B61C77B245E942C00D0C98A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B61C782245E942D00D0C98A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B61C783245E942D00D0C98A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B61C79C245E942E00D0C98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B61C79D245E942E00D0C98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B61C79F245E942E00D0C98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHAQN9C6ZJ;
+				INFOPLIST_FILE = "Mac-Bluetooth-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mac-Bluetooth-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B61C7A0245E942E00D0C98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHAQN9C6ZJ;
+				INFOPLIST_FILE = "Mac-Bluetooth-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mac-Bluetooth-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B61C7A2245E942E00D0C98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHAQN9C6ZJ;
+				INFOPLIST_FILE = "Mac-Bluetooth-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mac-Bluetooth-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac-Bluetooth-iOS.app/Mac-Bluetooth-iOS";
+			};
+			name = Debug;
+		};
+		2B61C7A3245E942E00D0C98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHAQN9C6ZJ;
+				INFOPLIST_FILE = "Mac-Bluetooth-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mac-Bluetooth-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac-Bluetooth-iOS.app/Mac-Bluetooth-iOS";
+			};
+			name = Release;
+		};
+		2B61C7A5245E942E00D0C98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHAQN9C6ZJ;
+				INFOPLIST_FILE = "Mac-Bluetooth-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mac-Bluetooth-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mac-Bluetooth-iOS";
+			};
+			name = Debug;
+		};
+		2B61C7A6245E942E00D0C98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHAQN9C6ZJ;
+				INFOPLIST_FILE = "Mac-Bluetooth-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mac-Bluetooth-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mac-Bluetooth-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B61C76C245E942C00D0C98A /* Build configuration list for PBXProject "Mac-Bluetooth-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61C79C245E942E00D0C98A /* Debug */,
+				2B61C79D245E942E00D0C98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B61C79E245E942E00D0C98A /* Build configuration list for PBXNativeTarget "Mac-Bluetooth-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61C79F245E942E00D0C98A /* Debug */,
+				2B61C7A0245E942E00D0C98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B61C7A1245E942E00D0C98A /* Build configuration list for PBXNativeTarget "Mac-Bluetooth-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61C7A2245E942E00D0C98A /* Debug */,
+				2B61C7A3245E942E00D0C98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B61C7A4245E942E00D0C98A /* Build configuration list for PBXNativeTarget "Mac-Bluetooth-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61C7A5245E942E00D0C98A /* Debug */,
+				2B61C7A6245E942E00D0C98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B61C77D245E942C00D0C98A /* Mac_Bluetooth_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B61C77E245E942C00D0C98A /* Mac_Bluetooth_iOS.xcdatamodel */,
+			);
+			currentVersion = 2B61C77E245E942C00D0C98A /* Mac_Bluetooth_iOS.xcdatamodel */;
+			path = Mac_Bluetooth_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B61C769245E942C00D0C98A /* Project object */;
+}
